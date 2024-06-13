@@ -1,0 +1,44 @@
+{
+    "name": "fend-refresh-2019",
+    "version": "1.0.0",
+    "description": "Front End Nanodegree Content & Project Resources",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest",
+        "build": "webpack --config webpack.config.js",
+        "start": "node src/server/start.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^1.3.3",
+        "babel-jest": "^29.4.3",
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2",
+        "jest-fetch-mock": "^3.0.3",
+        "request": "^2.88.2",
+        "webpack": "^5.75.0",
+        "webpack-cli": "^5.0.1"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.20.12",
+        "@babel/preset-env": "^7.20.2",
+        "babel-loader": "^9.1.2",
+        "body-parser": "^1.20.1",
+        "clean-webpack-plugin": "^4.0.0",
+        "cors": "^2.8.5",
+        "css-loader": "^6.7.3",
+        "html-webpack-plugin": "^5.5.0",
+        "jest": "^29.3.1",
+        "mini-css-extract-plugin": "^2.7.2",
+        "node-fetch": "^2.2.0",
+        "node-sass": "^8.0.0",
+        "sass": "^1.57.1",
+        "sass-loader": "^13.2.0",
+        "style-loader": "^3.3.1",
+        "terser-webpack-plugin": "^5.3.6",
+        "webpack-dev-server": "^4.11.1",
+        "workbox-webpack-plugin": "^6.5.4"
+    }
+}

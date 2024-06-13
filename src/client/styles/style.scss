@@ -1,0 +1,102 @@
+h3 {
+    margin: 0
+}
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    
+    h1 {
+        grid-column: 1/4;
+        text-align: center;
+    }        
+    #latitude {
+        grid-row: 2;
+        grid-column: 1;
+    }
+    #longitude {
+        grid-row: 2;
+        grid-column: 2;
+    }
+    #date {
+        grid-row: 3;
+        grid-column: 1
+    }
+    #button {
+        grid-row: 3;
+        grid-column: 2;
+        font-size: 1em;
+    }
+    #photo {
+        grid-row: 4;
+        grid-column: 1/3;
+        max-height: 50vh;
+        max-width: 100vw;
+        display: none
+    }
+    #title-name {
+        grid-row: 5;
+        grid-column: 1;
+        height: 2em;
+    }
+    #name {
+        grid-row: 5;
+        grid-column: 2;
+    }
+    #title-country {
+        grid-row: 6;
+        grid-column: 1;
+    }
+    #country {
+        grid-row: 6;
+        grid-column: 2;
+    }
+    #title-distance {
+        grid-row: 7;
+        grid-column: 1;
+    }
+    #distance {
+        grid-row: 7;
+        grid-column: 2;
+    }
+    #title-temperature {
+        grid-row: 8;
+        grid-column: 1;
+    }
+    #temperature {
+        grid-row: 8;
+        grid-column: 2
+    }
+    #title-wind {
+        grid-row: 9;
+        grid-column: 1;
+    }
+    #wind {
+        grid-row: 9;
+        grid-column: 2;
+    }
+    #title-precipitation {
+        grid-row: 10;
+        grid-column: 1;
+    }
+    #precipitation {
+        grid-row: 10;
+        grid-column: 2;
+    }
+    #title-snow {
+        grid-row: 11;
+        grid-column: 1;
+    }
+    #snow {
+        grid-row: 11;
+        grid-column: 2;
+    }
+    #title-travel-duration {
+        grid-row: 12;
+        grid-column: 1
+    }
+    #travel-duration {
+        grid-row: 12;
+        grid-column: 2
+    }
+}
